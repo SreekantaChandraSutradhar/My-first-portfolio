@@ -13,7 +13,7 @@ span{
 }
 
 
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 150px;
 }
@@ -43,4 +43,33 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    border-left:
+}
+#web-dev-Ex{
+    border-left:7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-dev-Ex2{
+    border-left:7px solid;
+    border-image: linear-gradient(pink, red);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
